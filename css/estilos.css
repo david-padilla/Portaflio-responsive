@@ -437,6 +437,12 @@ h2 {
     .hero{
         justify-content: center;
     }
+    .project-description {
+        font-size: 1.2em;
+    }
+    .project img {
+        height: 200px;
+    }
     .project-details {
         font-size: 14px;
     }
@@ -464,12 +470,7 @@ h2 {
  
 }
 @media screen and (max-width: 320px) {
-   .project-description {
-       font-size: 1.2em;
-   }
-   .project img {
-       height: 200px;
-   }
+  
     h1{
         font-size: 2em;
     }
