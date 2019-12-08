@@ -88,7 +88,7 @@ h6{
 }
 
 h1 strong {
-    color: #2bdb78;
+    color: #ffeb3b;
 }
 h2 {
     color: #026fff;
@@ -134,8 +134,7 @@ h2 {
 }
 
 .project-imageContainer{
-    width: 50%;
-    
+    width: 50%;  
 }
 .project-imageContainer img {
     max-width: 100%;
@@ -321,7 +320,7 @@ h2 {
       position: fixed;
       z-index: 4;
       top:5px;
-      left: 5px;
+      right:5px;
       color: white;
   }
  
@@ -394,6 +393,9 @@ h2 {
     .project {
         display: block;
     }
+    .portfolio h2 {
+        margin: 1em 0;
+    }
     .project-imageContainer{
         width: auto;
         text-align: center;
@@ -422,7 +424,7 @@ h2 {
 
     }
     .project-description{
-        font-size: .8em;
+        font-size: 1em;
     }
     .event{
         width: auto;
@@ -437,14 +439,19 @@ h2 {
     .hero{
         justify-content: center;
     }
-    .project-description {
-        font-size: 1.3em;
+    .project-title{
+        font-size: 1.2em;
     }
-    .project img {
-        height: 200px;
+    .project-description {
+        font-size: 1.2em;
     }
     .project-details {
         font-size: 14px;
+    }
+    .project img{
+        height: auto;
+        width: auto;
+        text-align: center;
     }
     .event-detail{
         margin: -2em .5em .5em;
@@ -470,7 +477,13 @@ h2 {
  
 }
 @media screen and (max-width: 320px) {
-  
+    .container{
+        padding: 0 .8em;
+    }
+    .portfolio h2 {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
     h1{
         font-size: 2em;
     }
